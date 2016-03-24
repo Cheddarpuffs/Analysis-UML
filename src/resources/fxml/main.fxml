@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-classpath-element ../../../../lib?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import de.jensd.fx.fontawesome.Icon?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane prefHeight="600.0" prefWidth="600.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<BorderPane prefHeight="200.0" prefWidth="200.0">
+			<top>
+				<VBox spacing="20">
+					<JFXToolbar>
+					</JFXToolbar>
+				</VBox>
+			</top>
+			<left>
+				<AnchorPane BorderPane.alignment="CENTER">
+					<children>
+						<VBox alignment="CENTER" layoutX="46.0" layoutY="2.0">
+							<children>
+								<Label alignment="CENTER" text="K" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<VBox.margin>
+										<Insets />
+									</VBox.margin>
+									<padding>
+										<Insets bottom="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="a" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="b" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="a" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="S" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<VBox.margin>
+										<Insets />
+									</VBox.margin>
+									<padding>
+										<Insets bottom="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="u" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="j" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+								<Label alignment="CENTER" text="i" textAlignment="CENTER">
+									<font>
+										<Font name="DejaVu Sans ExtraLight" size="58.0" />
+									</font>
+									<padding>
+										<Insets top="-4.0" />
+									</padding>
+								</Label>
+							</children>
+							<padding>
+								<Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+							</padding>
+						</VBox>
+					</children>
+				</AnchorPane>
+			</left>
+			<center>
+				<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0"
+					prefWidth="100.0"	BorderPane.alignment="CENTER" />
+			</center>
+		</BorderPane>
+
+	</children>
+</StackPane>
